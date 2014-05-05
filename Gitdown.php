@@ -48,7 +48,7 @@ class Gitdown {
         curl_setopt($ch, CURLOPT_USERAGENT,'Apollo Syntax Highlighter');
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 1);
         curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json',
-        										   'Accept: application/vnd.github.v3+json'));
+        					   'Accept: application/vnd.github.v3+json'));
 
         if( !($response = curl_exec($ch)) ) {
 
